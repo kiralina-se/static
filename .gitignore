@@ -1,0 +1,49 @@
+# .gitignore
+
+# -----------------------------------------------------------------------------
+# General macOS files
+#
+# These are system files created automatically by macOS that you typically
+# don't want to include in your version control.
+# -----------------------------------------------------------------------------
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must be end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.Spotlight-V100
+.Trashes
+
+# -----------------------------------------------------------------------------
+# Ignoring the /images folder
+#
+# This rule will ignore the 'images' folder located at the root of your
+# project repository.
+# -----------------------------------------------------------------------------
+
+video
+images
+webfonts
+
+# -----------------------------------------------------------------------------
+# Optional Rules (Uncomment the one you need)
+# -----------------------------------------------------------------------------
+
+# If you want to ignore ANY folder named 'images' anywhere in your project,
+# not just at the root, you can use this line instead:
+# **/images
+
+# If you want to ignore all files inside the /images folder but NOT the
+# folder itself (for example, if you want to keep an empty folder in the
+-
+# repo), you could do this:
+# /images/*
+# !/images/.gitkeep
